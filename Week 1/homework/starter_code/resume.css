@@ -1,0 +1,46 @@
+body {
+
+	background: #ffffcc;
+
+	font-family: arial, helvetica, sans-serif;
+}
+
+h1 {
+
+	text-align: center;
+
+	text-transform: uppercase;
+}
+
+.contact {
+
+	text-align: center;
+}
+
+h3 {
+
+	text-transform: uppercase;
+}
+
+hr {
+ border: 0.5px solid black;
+}
+
+.highlights{
+
+	column-count: 2;
+
+	list-style: circle;
+
+	list-style-position: inside;
+}
+
+.experience {
+
+	list-style: circle;
+}
+
+li {
+
+	margin: 10px;
+}

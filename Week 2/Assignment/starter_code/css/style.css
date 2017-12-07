@@ -51,7 +51,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
 }
 
 
@@ -67,12 +67,92 @@ body {
 
 }
 
-header {
+#container h2 {
+  font-size: 24px;
+  font-weight: bold;
 
 }
 
-footer {
+button {
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 14px;
+}
 
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9e42e;
+
+}
+
+.benefits {
+  background: #f0efef;
+  height: 300px;
+  width: 100%;
+}
+
+.benefits h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.benefits p {
+  font-size: 13px;
+  font-weight: lighter;
+
+}
+
+.benefits ul {
+  font-size: 13px;
+  font-weight: lighter;
+
+}
+
+.benefits h3 {
+  font-weight: bolder;
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: lighter;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-style: italic;
+
+}
+
+.signup {
+  font-size: 12px;
+  font-weight: bolder;
+  border-radius: 5px;
+  height: 75px;
+  width: 100%;
+  background: #f9e42e;
+  text-align: center;
+}
+
+footer {
+  background: #121212;
+  text-align: center;
+}
+
+.fa {
+      padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
 }
 
 /******************************************

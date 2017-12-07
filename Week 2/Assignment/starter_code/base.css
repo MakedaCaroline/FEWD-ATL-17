@@ -1,0 +1,54 @@
+#container h2 {
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+button {
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #f9e42e;
+
+}
+
+.benefits {
+	background: #f0efef;
+	height: 350px;
+	width:  ;
+}
+
+.benefits h1 {
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.benefits p {
+	font-size: 13px;
+	font-weight: lighter;
+
+}
+
+.benefits ul {
+	font-size: 13px;
+	font-weight: lighter;
+
+}
+
+.quote {
+	font-size: 18px;
+	font-weight: lighter;
+
+}
+
+.signup {
+	font-size: 12px;
+	font-weight: bolder;
+	border-radius: 5px;
+}

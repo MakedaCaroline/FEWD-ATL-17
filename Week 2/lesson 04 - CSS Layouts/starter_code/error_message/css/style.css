@@ -1,0 +1,10 @@
+#notification {}
+
+.message {}
+
+.error {}
+
+.success {
+
+	color: green;
+}

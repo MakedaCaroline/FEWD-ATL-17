@@ -41,42 +41,32 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
+    font-family: "Open Sans";
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-
-/* Center the container */
 
 #container {
   height: 500px;
   text-align: center;
   padding-top: 32px;
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  font-family: "Open Sans";
 }
 
 #container h2 {
   font-family: "Open Sans";
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
   color: white;
-  padding: 100px;
+  padding: 150px;
 
 }
 
 input {
-  border-radius: 5px;
   font-size: 14px;
   background-color: #f9e42e;
   width: 200px;
@@ -106,53 +96,67 @@ input {
   height: 300px;
   padding-top: 50px;
   padding-left: 50px;
+  font-family: "Open Sans";
+
 }
 
 .benefits h1 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
+  color: #033048;
 }
 
 .benefits p {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: ;
   padding: 10px;
 
 }
 
 .benefits ul li{
-  font-size: 13px;
+  font-size: 16px;
   padding: 10px;
-
 }
 
 .benefits h3 {
   font-weight: 800;
 }
 
-.quote {
-  font-size: 18px;
-  font-weight: lighter;
+.quote  {
+  font-size: 22px;
+  font-family: "Open Sans";
+  font-weight: 400;
   height: 200px;
   text-align: center;
   padding: 50px;
   color: white;
-  font-style: italic;
+}
 
+.quote p {
+    font-style: italic;
+}
+
+.quote h3 {
+  font-family: "Open Sans";
+  padding: 10px;
+  font-weight: 600;
 }
 
 .signup {
-  height: 60px;
+  height: 80px;
   background: #f9e42e;
   text-align: center;
   padding: 15px;
 }
 
 button {
-  background: #033048;
+  background-color: #033048;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   width: 200px;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
 }
 
 footer {

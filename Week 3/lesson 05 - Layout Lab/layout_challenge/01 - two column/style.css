@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	border: 2px solid red;
+	background: salmon;
+	width: 100%;
+	height: 150px;
+	margin: 10px auto;
+
+}
+
+.main {
+    border: 2px solid red;
+    background: salmon;
+    height: 300px;
+    width: 60%;
+    float: left;
+     margin: 0 0 10px;
+}
+
+.sidebar {
+	border: 2px solid red;
+	background: salmon;
+	height: 300px;
+	width: 39%;
+	float: right;
+	margin-left: 5px;
+}
+
+footer {
+	border: 2px solid red;
+	background: salmon;
+	width: 100%;
+	height: 150px;
+	clear: both;
+
+}

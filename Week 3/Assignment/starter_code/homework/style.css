@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+.container {
+	width: 980px;	
+	margin: 0 auto;
+}
 
 body {
 	background: lightgrey;
@@ -11,22 +15,26 @@ body {
 header {
 	background: #033048;
 	width: 100%;
-	height: 100px;
+	height: 75px;
+	padding: 0 50px 0 50px;
 }
 
-.logo {
+.logo h2 {
 	color: #fff;
-	position: absolute;
-	font-size: 20px;
+	float: left;
+	font-size: 30px;
+	margin: 0 auto;
+    padding: 20px 0 0 28px;
 }
 
-header, nav {
-	width: 100%;
-	padding: 20px;
+header nav {
+	float: right;
+	padding-top: 28px;
+	padding-right: 60px;
 
 }
 
-nav, a {
+.container nav a {
 	color: #f9e42e;
 	text-decoration: none;
 	text-align: center;
@@ -34,40 +42,62 @@ nav, a {
 }
 
 .left-container {
-	width: 60%;
+	width: 70%;
 	float: left;
+	padding-bottom: 60px;
 
 }
 
 .blog-post {
+	width: 100%;
+	margin-left: 50px;
+}
 
+.blog-post a {
+	float: right;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #033048;
+}
+
+hr {
+	clear: both;
+	background-color: #033048;
+    height: 1px;
+    border: none;
+    margin-left: 50px;
 }
 
 .sidebar {
-	width: 40%;
-	Height: 500px;
+	width: 18%;
 	float: right;
 	color: #033048;
 }
 
-.categories {
-	float: right;
+.about a {
+	color: #033048;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.categories .sub-nav a {
+	color: #033048;
+}
+
+
+.about h3  {
+	margin-bottom: 0;
 
 }
 
-.sub-nav  {
-	list-style: none;
-}
-
-.sub-nav a {
-	color: #033048
-}
-
-.about {
-
+.about p {
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 
 .ad {
+	padding-top: 50px;
 
 
 }
@@ -78,10 +108,18 @@ nav, a {
 	width: 100%;
 	height: 60px;
 	margin: 0;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 30px;
 }
 
-input {
-	text-align: center;
+.signup button {
+	width: 15%;
+	height: 30px;
+	border-radius: 3px; 
+	background: #033048;
+	border: none;
+	color: #fff;
 }
 
 footer {
@@ -93,7 +131,21 @@ footer {
 	text-align: center;
 }
 
+footer h2 {
+	color: #f9e42e;
+	padding-top: 30px;
+	padding-left: 33px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+	padding-bottom: 10px;
+}
+
 footer ul li {
 	list-style: none;
+	color: #fff;
 }
 

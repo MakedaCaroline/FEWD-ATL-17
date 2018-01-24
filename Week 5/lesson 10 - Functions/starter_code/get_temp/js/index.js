@@ -14,6 +14,10 @@ $( document ).ready( function() {
 		tempF = parseInt(tempF);
 		console.log(tempF);
 
+		if (tempF <= 65) {
+			document.getElementById("#celsius").style.backgroundColor = '#99C262';
+		}
+
 	}
 
 });

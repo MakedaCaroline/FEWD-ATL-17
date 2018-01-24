@@ -1,8 +1,6 @@
 var total = 0;
 
-$('#entry').submit(updateReceipt);
-
-function updateReceipt(event) {
+$('#entry').submit(function(event) {
 
 	event.preventDefault();
 
@@ -23,7 +21,9 @@ function updateReceipt(event) {
 	$('#total').html(currencyFormat(total));
 
 	$('#newEntry').val('');
-}
+});
+
+
 
 function currencyFormat(number) {
 

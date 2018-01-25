@@ -7,16 +7,19 @@ $( document ).ready( function() {
 		event.preventDefault();
 
 		var tempC = $('#celsius').val();
-		var tempF = tempC * 1.8 + 32;
+		var tempF = tempC * 9/5 + 32;
 		//console.log(tempF);
 
 		tempC = parseInt(tempC);
 		tempF = parseInt(tempF);
-		console.log(tempF);
+		//console.log(tempF);
+
+		document.getElementById('')
+
+
 
 		if (tempF <= 65) {
-			document.getElementById("#celsius").style.backgroundColor = '#99C262';
-		}
+
 
 	}
 

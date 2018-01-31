@@ -1,6 +1,15 @@
-// Refactor the following code to instead use the 'this' keyword
+// Refactor the following code to instead use the 'this' keywo
 
-$('#grayButton').click(switchGray);
+	$('li').click(function() {
+
+		var liColor = $(this).attr('id');
+
+		console.log(liColor);
+
+	});
+
+
+/* $('#grayButton').click(switchGray);
 $('#whiteButton').click(switchWhite);
 $('#blueButton').click(switchBlue);
 $('#yellowButton').click(switchYellow);

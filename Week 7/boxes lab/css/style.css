@@ -77,4 +77,57 @@ a {
 	margin-right: 15px;
 }
 
+#footer {
+
+	height: 75px;
+	width: 100%;
+	clear: both;
+	border: 1px solid black;
+
+}
+  /* this is my mobile styling */
+
+@media only screen and (max-width: 700px) {
+
+	#first {
+		float: none;
+		width:100%;
+
+	}
+
+	#second {
+
+		float: none;
+		width:100%;
+
+	}
+
+	#third {
+		float: none;
+		width:100%;
+
+	}
+
+	#fourth {
+		float: none;
+		width:100%;
+
+	}
+
+	nav, a {
+		display: none;
+	}
+
+	#logo {
+		float:right;
+		border: 1px dotted black;
+		height: 60px;
+		width: 15%;
+		margin-top: 3px;
+	}
+
+
+
+}
+
 

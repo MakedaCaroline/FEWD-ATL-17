@@ -12,7 +12,7 @@ body, html {
 	background-image: url(../images/background9.jpg);
 }
 
-#container {
+#owlcontainer {
 	height: 100%;
 }
 
@@ -37,7 +37,7 @@ a {
 	color: white;
 }
 
-#main-content {
+#instafeed {
 
 	height: 70%;
 	width: 50%;

@@ -61,7 +61,11 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; }
+    user-select: none;
+
+    color: white;
+    padding: 20px;
+    display: inline; }
   .owl-carousel.owl-loaded {
     display: block; }
   .owl-carousel.owl-loading {
